@@ -1,0 +1,647 @@
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/*-----------------------------START HEADER---------------------------------*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    box-shadow: 1px 2px 37px 0px rgb(0 0 0 / 11%);
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+}
+
+.header .logo a img {
+    width: 104px;
+    margin-left: 145px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.header .links {
+    display: flex;
+    list-style: none;
+}
+
+.header .links li a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0px 24px;
+}
+
+.header .links li a:hover {
+    color: #fac031;
+}
+
+.header .menu i {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header .menu i:hover {
+    color: #fac031;
+}
+
+.header .menu {
+    margin-right: 145px;
+}
+
+/*-----------------------------START HEADER---------------------------------*/
+.slide {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 66px;
+    align-items: center;
+    margin-bottom: 297px;
+}
+
+.slide .text-slide .title {
+    margin-top: 0px;
+    line-height: 1.3;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.slide .text-slide .paragraph {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+}
+
+.slide .text-slide .cta {
+    background-color: #fac031;
+    border-radius: 5px;
+    width: 31%;
+    text-align: center;
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+.slide .text-slide .cta a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.slide .text-slide .cta i {
+    font-weight: 900;
+    color: white;
+    margin-left: 7px;
+    transition: 0.3s;
+
+}
+
+/*-----------------------------START  ABOUT US---------------------------------*/
+
+.about-us {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 297px;
+}
+
+.about-us img {
+    width: 857px;
+    margin-left: 13px;
+}
+
+.about-us .text-about {
+    margin-left: 1px;
+    margin-top: -102px;
+}
+
+.about-us .text-about .title {
+    line-height: 1.3;
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 56px;
+}
+
+.about-us .text-about .title span {
+    color: #fac031;
+}
+
+.about-us .text-about .question {
+    font-size: 31px;
+    margin-bottom: 18px;
+}
+
+.about-us .text-about .paragraph {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 54px;
+
+}
+
+.about-us .text-about .cta {
+    text-decoration: none;
+    color: white;
+    background-color: #fac031;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+/*-----------------------------START OUR MENU---------------------------------*/
+
+
+.our-menu {
+    text-align: center;
+    margin-bottom: 297px;
+}
+
+/*-----TITLE----*/
+
+.our-menu .title {
+    margin-bottom: 57px;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+.our-menu .title span {
+    color: #fac031;
+
+}
+
+
+/*----PLATS----*/
+
+.our-menu .plats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 41px;
+    grid-row-gap: 45px;
+    WIDTH: 95%;
+    margin: auto;
+}
+
+.our-menu .plats .buger,
+.Pasta,
+.lasagna,
+.Drink,
+.pizza,
+.Hot-Dog,
+.Juse,
+.Biryani,
+.Chocolate,
+.Ice-Cream,
+.Spanchi,
+.Sandwich {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 18px 0px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+}
+
+
+.our-menu .plats .photo-plat {
+    height: 249px;
+    width: 330px;
+    border-radius: 10px;
+    transition: 0.3s;
+    object-fit: cover;
+}
+
+.our-menu .plats .photo-plat:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+.our-menu .plats .title {
+    color: #fac031;
+    margin-bottom: 10px;
+    font-size: 32px;
+
+}
+
+.our-menu .plats .paragraph {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+
+}
+
+.our-menu .plats .price {
+    font-size: 32px;
+    margin-bottom: 10px;
+
+}
+
+.our-menu .plats .ratings img {
+    width: 120px;
+
+}
+
+.our-menu .plats .ratings {
+    margin-bottom: 14px;
+
+}
+
+.our-menu .plats .cta {
+    background-color: black;
+    width: 46%;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.our-menu .plats .cta:hover {
+    background-color: #fac031;
+}
+
+.our-menu .plats .cta a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1.6px;
+}
+
+/*-----------------------------START GALLARY---------------------------------*/
+
+.our-gallary {
+    text-align: center;
+    margin-bottom: 297px;
+}
+
+.our-gallary .heading {
+    margin-bottom: 57px;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.our-gallary .heading span {
+    color: #fac031;
+}
+
+
+.our-gallary .gallary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 4px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 4px;
+    width: 95%;
+    margin: auto;
+
+}
+
+.our-gallary .gallary .gallary-1,
+.gallary-2,
+.gallary-3,
+.gallary-4,
+.gallary-5,
+.gallary-6 {
+    position: relative;
+}
+
+.our-gallary .gallary img {
+    width: 100%;
+}
+
+.our-gallary .gallary .infos {
+    align-items: center;
+    background-color: #00000031;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+
+.our-gallary .gallary .infos .title {
+    font-size: 35px;
+    color: #fac031;
+    margin-bottom: 30px;
+}
+
+.our-gallary .gallary .infos .paragraph {
+    line-height: 22px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.our-gallary .gallary .infos button {
+    background-color: #fac031;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.our-gallary .gallary .infos button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+/*-----------------------------START REVIEWS---------------------------------*/
+
+.customer-reviews {
+    text-align: center;
+    margin-bottom: 297px;
+}
+
+.customer-reviews .heading {
+    margin-bottom: 57px;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+.customer-reviews .heading span {
+    color: #fac031;
+}
+
+
+.customer-reviews .cutomer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    width: 95%;
+    margin: auto;
+
+}
+
+.customer-reviews .cutomer .customer-1,
+.customer-2,
+.customer-3,
+.customer-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 50%);
+    padding: 10px 7px;
+}
+
+.customer-reviews .cutomer .photo-men {
+    border: 4px solid #0000001f;
+    width: 54%;
+    border-radius: 281px;
+}
+
+.customer-reviews .cutomer .ratings {
+    width: 44%;
+    margin-bottom: 7px;
+}
+
+.customer-reviews .cutomer .social-media {
+    visibility: hidden;
+}
+
+/*-----------------------------START ORDER NOW---------------------------------*/
+
+
+.order{
+  text-align: center;
+  margin-bottom: 297px;
+}
+
+.order .heading{
+    margin-bottom: 57px;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+.order .heading span{
+    color: #fac031;
+
+}
+
+.order .forum-img{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0px auto;
+}
+
+
+.order .forum-img .img{
+    width: 50%;
+}
+
+.order .forum-img .img img{
+    width: 80%;
+}
+
+.order .forum-img .forum{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: baseline;
+    position: relative;
+}
+
+.order .forum-img .forum .input{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 44px;
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap: 25px;
+    position: absolute;
+    top: -112px;
+    left: 66px;
+}
+
+.order .forum-img .forum .input input{
+    height: 36px;
+    width: 235px;
+    background-color: transparent;
+    border-radius: 6px;
+    padding-left: 10px;
+    border: 2px solid #ababab;
+}
+
+.order .forum-img .forum .input input::placeholder{
+    color:#ababab;
+}
+
+.order .forum-img .forum button{
+    background-color: #fac031;
+    padding: 10px 20px;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -133px;
+    left: 66px;
+    border: none;
+}
+
+.order .forum-img .forum button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/*-----------------------------START TEAM---------------------------------*/
+
+.our-team{
+    text-align: center;
+    margin-bottom: 284px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-team .heading{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0px;
+    margin-bottom: 172px;
+
+    
+}
+
+.our-team .heading span{
+    color: #fac031;
+}
+
+/*-------START chef----------*/
+
+.our-team .chefs{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.our-team .chefs .chef-1,
+.chef-2,
+.chef-3,
+.chef-4{
+    width: 23.75%;
+    background-color: #fac031;
+    position: relative;
+    height: -10;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.our-team .chefs .photo{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 7px;
+    position: absolute;
+    top: -101px;
+}
+
+.our-team .chefs .info{
+    position: absolute;
+    bottom: 15px;
+
+}
+
+.our-team .chefs .info .bio{
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------FOOTER---------------------------------*/
+
+.footer{
+    padding-top: 53px;
+    background-color: #eeeeee;
+  
+
+
+}
+
+.footer .footer-main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    margin: auto;
+    width: 95%;
+
+}
+
+.footer .Location,
+.Quick-Link,
+.Contact,
+.Our-Service,
+.Follows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.footer .title{
+    color: #000;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.footer .page{
+    margin-bottom: 14px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+
+
+.footer .page a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer .social-media i{
+    margin: 0px 2px;
+ 
+    
+}
+
+.footer .Follows{
+    position: relative;
+}
+
+.footer .social-media{
+    position: absolute;
+    right: 0px;
+    top:47px;;
+
+}
+
+
+
+
+
+
+
